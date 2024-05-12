@@ -1,0 +1,2 @@
+These folders contain the source files of the index file Start.html.
+Deleting or editing these files will affect the index file's functionality and layout.

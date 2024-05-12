@@ -1,0 +1,296 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	font-family: Tahoma, Arial, Sans;
+	font-size: 10pt;
+	background: #e0e0e0; 
+	margin: 0; 
+	padding: 0;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #0076b7;
+}
+
+h3 {
+	display: block;
+	padding: 0;
+	margin: 0 0 10px 0;
+	font-size: 12pt;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	text-align: left;
+	background: #ffffff;
+	height: 100%;
+}
+
+#padded {
+	padding: 25px 20px 20px 20px;
+	background: white;
+}
+
+#main {
+	clear: both;
+	padding: 10px;
+	margin: 0;
+	background: #004b7a;
+}
+
+#main_border {
+	padding: 20px;
+	background: #ffffff;
+}
+
+/***********************
+ *   HEADER & FOOTER   *
+ ***********************/ 
+#header img {
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+#header h1 {
+	font-size: 16pt;
+	float: left;
+}
+
+#header p {
+	clear: both;
+	padding: 0;
+	margin: 10px 0 5px 0;
+}
+
+#date {
+	margin: 0 15px 0 0;
+	color: #666666;
+	font-size: 8pt;
+}
+
+#footer {
+	margin: 0 0 0 -20px;
+	padding: 5px 0 0 20px;
+}
+
+#footer span {
+	color: #666666;
+	font-size: 8pt;
+}
+
+/***********************
+ *      NAVIGATION	   *
+ ***********************/
+#nav {
+	margin: 0;
+	padding: 15px 0 0 0;
+	height: 35px; /* nav a height + space between nav and main*/
+	overflow: visible; /* 23.7.2012: Changed from hidden to visible to enable scrolling in mobile phones */
+}
+
+#nav li {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	height: 30px;
+	float: left;
+    text-align: center;
+	margin: 0 5px 0 0;
+	padding: 0 10px 0 10px;
+	background: #6688ae;
+}
+
+#nav  a {
+	display: block;
+	padding: 5px 0 0 0;
+	margin: 0;
+	height: 40px;
+	text-decoration: none;
+	background: #6688ae;
+	font-size: 14pt;
+	color: white;
+}
+
+#nav li.blanklink {
+	background: #fff;
+}
+
+#nav li.blanklink a {
+	font-size: 10pt;
+	color: #0076B7;
+	background: #fff;
+	line-height: 25px;
+}
+
+#nav li.blanklink a:hover {
+	text-decoration: underline;
+}
+
+/***********************
+ *       PROJECT 	   *
+ ***********************/ 
+#manuals, #project, #lineUps {
+	background: #ffffff;
+}
+
+#project table, #manuals table {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#project table {
+	border-top: 2px solid #6688ae;
+	border-bottom: 2px solid #6688ae; 
+	border-left: 4px solid #6688ae;
+}
+
+#project th {
+	background: #dee8f1;
+	padding: 10px;
+	width: 25%;
+}
+
+#project td, #manuals td {
+	padding: 10px;
+}
+
+/***********************
+ *       MANUALS 	   *
+ ***********************/ 
+#manuals th {
+	padding: 0 0 10px 10px;
+}
+
+#manuals td.category {
+	background: #dee8f1;
+	border-top: 2px solid #6688ae;
+	border-bottom: 2px solid #6688ae;
+}
+
+#manuals td.paddingCell {
+	padding-left: 35px;
+}
+
+#manuals ul {
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+
+.showList {
+	text-decoration: none;
+	color: black;
+}
+
+.revisionContainer {
+	font-size: 8pt;
+}
+
+/***********************
+ *      LINE-UPS 	   *
+ ***********************/ 
+#lineUpsLeft {
+	float: left;
+	width: 250px;
+}
+
+#lineUpsLeft ul {	
+	padding: 0;
+    margin: 0;
+}
+
+#lineUpsLeft a {
+	display: block;
+	padding: 6px;
+	margin: 0;
+	text-decoration: none;
+	color: black;
+}
+
+#lineUpsLeft li {
+	height: 30px;
+	background: #dee8f1;
+	border-top: 2px solid #6688ae;
+	border-bottom: 2px solid #6688ae;
+	margin: 0 25px 5px 0;  
+}
+
+#lineUpsLeft a:focus, #lineUpsRight a:focus {
+	outline: none;
+}
+
+#lineUpsRight {
+	margin: 0 0 0 260px;
+	padding: 0 0 0 10px;
+	border-left: 2px dotted #cde0f1;
+}
+
+.folder {
+	border-left: 4px solid #6688ae;
+	border-bottom: 2px solid #6688ae;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.folder a {
+	display: block;
+	color: black;
+	padding: 10px 0 0 10px;
+	margin: 0;
+	height: 25px;
+	text-decoration: none;
+}
+
+.folder ul {
+	font-weight: normal;
+	padding: 5px 0 0 15px;
+	margin: 0;
+}
+
+.subFolder {
+	border-left: 4px solid #6688ae;
+	border-bottom: 2px solid #6688ae;
+	padding: 0 0 0 10px;
+	margin: 0 0 10px 0px;
+}
+
+.subFolder ul {
+	font-weight: normal;
+	border-style: none;
+	padding: 0 0 0 15px; 
+	margin: 5px 0 0 0;
+}
+
+.document {
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+
+.document a  {
+	display: inline;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	color: #0066ff;
+}
+
+/* For compatibility with FF and IE */
+.root {
+	padding: 0;
+	margin: 0;
+}

@@ -1,0 +1,63 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	font-size: 9pt;
+}
+
+a, .document a, .unitDocs a
+{
+	text-decoration: none;
+}
+
+table
+{
+	width: 100%;
+}
+
+#header img, #main_border, #container, #lineUpsRight
+{
+	margin: 0;
+	padding: 0;
+}
+
+#project td, #manuals td, #project th, #manuals th
+{
+	padding: 5px 5px 5px 0;
+}
+
+#container
+{
+	width: 100%;
+}
+
+#main
+{
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+#nav, #lineUpsLeft, #footer
+{
+	display: none;
+}
+
+.folder
+{
+	padding-bottom: 5px;
+}
+
+.folder ul
+{
+	padding-top: 0;
+}
+
+.folder a
+{
+	height: 20px;
+}
+
+.document, .unitDocs li
+{
+	margin: 0;
+}
